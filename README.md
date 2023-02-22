@@ -74,16 +74,11 @@ update
 ```
 #### DELETE
 ```
-del(documentIdToRemove) - deletes document by ID
-
-from Users as u
-where Id() = 'users/123'
+from "@all_docs"
 update 
 {
-   del('users/123');
+   del('user123');
 }
-
-
 ```
 
 
