@@ -74,6 +74,7 @@ update
 ```
 #### DELETE
 ```
+del(documentIdToRemove) - deletes document by ID
 
 ```
 
