@@ -46,11 +46,29 @@ When configuration completed click "Restart server"
 You will be on RavenDB GUI main page.
 
 ## Usage
-#### CREATE
-#### SELECT
-#### UPDATE
-#### DELETE
+RavenDB use own SQL-like query language named RQL (Raven Query Language)
+In RavenDB all documents grouped by collections
 
+#### CREATE
+```
+
+```
+#### SELECT
+```
+from '@all_docs'
+```
+or if we want to see all users
+```
+from 'users'
+```
+#### UPDATE
+```
+
+```
+#### DELETE
+```
+
+```
 
 
 
