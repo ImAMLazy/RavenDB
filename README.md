@@ -6,11 +6,11 @@ With a RavenDB database you can set up a NoSQL data architecture or add a NoSQL 
 RavenDB stores data as JSON documents and can be deployed in distributed clusters.
 
 ## Supported Platforms
-⋅⋅* Windows
-⋅⋅* Linux
-⋅⋅* Docker
-⋅⋅* MacOS
-⋅⋅* Raspberry Pi
+* Windows
+* Linux
+* Docker
+* MacOS
+* Raspberry Pi
 
 ## Instalation
 You can download ravendb from [official site](https://ravendb.net/download) for any supported platform
