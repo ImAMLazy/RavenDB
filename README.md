@@ -55,11 +55,9 @@ In RavenDB all documents grouped by collections
 from "@all_docs"
 update 
 {
-   put("users/123", { users: id(this) });
+   put("users/321", { name: '321' });
    
 }
-
-
 ```
 #### SELECT
 ```
