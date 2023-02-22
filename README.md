@@ -61,6 +61,7 @@ update
 ```
 #### SELECT
 ("Query" field)
+
 List of all documents:
 ```
 from '@all_docs'
