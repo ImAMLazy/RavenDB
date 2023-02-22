@@ -76,6 +76,14 @@ update
 ```
 del(documentIdToRemove) - deletes document by ID
 
+from Users as u
+where Id() = 'users/123'
+update 
+{
+   del('users/123');
+}
+
+
 ```
 
 
