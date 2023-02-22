@@ -81,6 +81,7 @@ update
 }
 ```
 #### DELETE
+("Patch" field)
 ```
 from "@all_docs"
 update 
