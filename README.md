@@ -52,6 +52,14 @@ In RavenDB all documents grouped by collections
 #### CREATE
 ```
 
+from "@all_docs"
+update 
+{
+   put("users/123", { users: id(this) });
+   
+}
+
+
 ```
 #### SELECT
 ```
