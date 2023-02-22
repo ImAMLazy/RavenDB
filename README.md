@@ -50,20 +50,22 @@ RavenDB use own SQL-like query language named RQL (Raven Query Language)
 In RavenDB all documents grouped by collections
 
 #### CREATE
+("Patch" field)
 ```
-
 from "@all_docs"
 update 
 {
-   put("users/321", { name: '321' });
+   put("users/testUser", { "name": "TestUser", "@metadata": { "@collection": "Users" } });
    
 }
 ```
 #### SELECT
+("Query" field)
+List of all documents:
 ```
 from '@all_docs'
 ```
-or if we want to see all users
+List of all users:
 ```
 from 'users'
 ```
@@ -76,7 +78,6 @@ update
 {
    u.age = '20';
 }
-
 ```
 #### DELETE
 ```
