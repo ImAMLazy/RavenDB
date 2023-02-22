@@ -62,7 +62,14 @@ or if we want to see all users
 from 'users'
 ```
 #### UPDATE
+("Patch" field)
 ```
+from Users as u
+where Name = '123'
+update 
+{
+   u.age = '20';
+}
 
 ```
 #### DELETE
