@@ -27,12 +27,23 @@ tar xvjf ravendb.tar.bz2
 ```
 
 ## Setup
-You can setup RavenDB maunaly or use setup wizard.
-i will use wizard for setup.
+You can setup RavenDB manualy or use setup wizard.
+I will use wizard for unsecure setup.
 
 Firstly we need to unpack RavenDB archive in some folder.
 
+Secondly we need to open run file "run.ps1"
+In your browser will open setup wizard.
 
+Choose "New Cluster" field.
+
+Choose "Unsecure" mode.
+
+Nextly you can set the settings you need, 
+in my case this will be default ports with ip "127.0.0.1"
+
+When configuration completed click "Restart server"
+You will be on RavenDB GUI main page.
 
 ## Usage
 #### CREATE
