@@ -46,8 +46,9 @@ When configuration completed click "Restart server"
 You will be on RavenDB GUI main page.
 
 ## Usage
-RavenDB use own SQL-like query language named RQL (Raven Query Language)
-In RavenDB all documents grouped by collections
+RavenDB use own SQL-like query language named RQL (Raven Query Language).
+
+In RavenDB all documents can be grouped by collections
 
 #### CREATE
 ("Patch" field)
