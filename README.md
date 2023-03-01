@@ -59,7 +59,7 @@ In RavenDB all documents can be grouped by collections
 from "@all_docs"
 update 
 {
-   put("users/testUser", { "name": "TestUser", "age":"15" "@metadata": { "@collection": "Users" } });
+   put("users/testUser", { "Name": "TestUser", "age":"15" "@metadata": { "@collection": "Users" } });
 }
 ```
 #### SELECT
@@ -77,7 +77,7 @@ from 'users'
 ("Patch" field)
 ```
 from Users as u
-where name = "TestUser"
+where Name = "TestUser"
 update 
 {
    u.age = '20';
