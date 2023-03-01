@@ -1,8 +1,11 @@
 # [RavenDB](https://ravendb.net/)
 
 RavenDB is an open-source fully ACID document-oriented database written in C#, developed by Hibernating Rhinos Ltd. 
+
 First release of RavenDB was in may 2010.
+
 With a RavenDB database you can set up a NoSQL data architecture or add a NoSQL layer to your current relational database.
+
 RavenDB stores data as JSON documents and can be deployed in distributed clusters.
 
 ## Supported Platforms
