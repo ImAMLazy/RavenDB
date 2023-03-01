@@ -77,7 +77,7 @@ from 'users'
 ("Patch" field)
 ```
 from Users as u
-where Name = '123'
+where name = "TestUser"
 update 
 {
    u.age = '20';
