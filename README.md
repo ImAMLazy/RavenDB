@@ -86,11 +86,12 @@ update
 #### DELETE
 ("Patch" field)
 ```
-from "@all_docs"
+from "Users"
 update 
 {
-   del('user123');
+   del('users/testUser');
 }
+
 ```
 
 
