@@ -59,8 +59,7 @@ In RavenDB all documents can be grouped by collections
 from "@all_docs"
 update 
 {
-   put("users/testUser", { "name": "TestUser", "@metadata": { "@collection": "Users" } });
-   
+   put("users/testUser", { "name": "TestUser", "age":"15" "@metadata": { "@collection": "Users" } });
 }
 ```
 #### SELECT
