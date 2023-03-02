@@ -54,6 +54,7 @@ RavenDB use own SQL-like query language named RQL (Raven Query Language).
 In RavenDB all documents can be grouped by collections
 
 #### CREATE
+First document should be created without rql
 ("Patch" field)
 ```
 from "@all_docs"
